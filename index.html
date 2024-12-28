@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html id="html1" lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>сайт</title>
+</head>
+<main id="main2">
+<div class="box">
+<h2>Авторизация</h2>
+<form id="authForm">
+<br><label for="name">Логин</label>
+<input type="text" id="name" required>
+<span class="error" id="nameError"></span>
+<br><label for="dob">Дата рождения:</label>
+<input type="date" id="dob" name="dob" value="2000-01-01" required />
+<br><span class="error" id="dobError"></span>
+<label>Пол:</label>
+<br><input type="radio" name="gender" id="pol" value="м" required> Мужской
+<br><input type="radio" name="gender" id="pol" value="ж" required> Женский
+<br><span class="error" id="genderError"></span>
+<br><button type="submit" id="goToSecondPage">Авторизоваться</button>
+</main>
+</div>
+</form>
+<script src="script1.js"></script> 
+<script src="script6.js"></script> 
+</body>
+</html>

@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>сайт</title>
+</head>
+<body>
+<header>
+<div class="div1">
+<img src="img/img1.png" width="200px" title="логотип">
+<button id="vvv">выйти</button>
+<a class="a1" href="index1.html">описание</a>
+<a class="a1" href="index2.html">словарь</a>
+<a class="a1" href="index3.html">галерея</a>
+<a class="a1" href="index4.html">тест</a>
+<a class="a1" href="index5.html">личный кабинет</a>
+<p class="a1" id="login">ваш логин:</p>
+</div>
+</header>
+<main id="main1">
+<div class="divv">
+<p class="p1">
+<h2>Тест по произведению</h2> 
+<form id="testForm">
+<form action="" name="test" id="testusik" novalidate>
+<br><label>1.В каком городе происходит основное действие романа? </label>
+<br><input type="text" id="answer1" class="otvet" required placeholder="ваш ответ">
+<br><span class="error" id="answerError"></span>
+<br>
+<br><label>2.Где Берлиоз и Бездомный знакомятся с Воландом?</label>
+<br><input type="text" id="answer2" class="otvet" required placeholder="ваш ответ">
+<br><span class="error" id="answerError2"></span>
+<br>
+<br><label>3. Кем была Маргарита на балу у Воланда?</label>
+<br><input type="radio" name="question1" value="a" required> Официанткой 
+<br><input type="radio" name="question1" value="b"> Королевой
+<br><input type="radio" name="question1" value="c"> Почетной гостьей 
+<br>
+<br><label>4.Кому из героев принадлежат слова:<br> «Никогда и ничего не просите! Никогда и ничего, <br>и в особенности у тех, 
+кто сильнее вас. <br>Сами предложат и сами все дадут!»</label>
+<br><input type="radio" name="question2" value="a" required> Воланду
+<br><input type="radio" name="question2" value="b">Мастеру
+<br><input type="radio" name="question2" value="c">Маргарите
+<br>
+<br><label>5.С кем Бездомный познакомился в психиатрической лечебнице?</label>
+<br><input type="radio" name="question3" value="a" required> с Бегемотом 
+<br><input type="radio" name="question3" value="b"> С Маргаритой
+<br><input type="radio" name="question3" value="c"> С Мастером 
+<br>
+<br><label>6.Что Азазелло дал Маргарите?</label>
+<br><input type="radio" name="question4" value="a" required> Заколку для волос, при помощи которой женщина могла читать мысли других 
+<br><input type="radio" name="question4" value="b"> Волшебный крем, от которого женщина помолодела и научилась летать
+<br><input type="radio" name="question4" value="c"> Адрес психиатрической лечебницы, где находился Мастер
+<br>
+<br><button type="submit" id="proverka">Проверить ответы</button>
+<br><button id="proverkaa" onclick=clearForm() >Пройти тест заново</button>
+</form>
+<div id="result"></div>
+</div>
+</div>
+</main>
+<footer id="footer1">
+<div class="divv1">89009998666 
+<br><a id="a2" href="https://vk.com/bulgacow">VK</a>
+<br>2024
+</div>  
+</footer>
+<script src="script4.js"></script> 
+<script src="script5.js"></script> 
+</body>
+</html>
